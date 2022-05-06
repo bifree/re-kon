@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+	font-family: "Source Sans Pro", sans-serif;
+}
+@font-face {
+  font-family: 'Mincho'; /*Can be any text*/
+  src: local('HiraginoMincho'),
+    url('./fonts/Hiragino Mincho ProN W6.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kaku'; /*Can be any text*/
+  src: local('HiraginoKaku'),
+    url('./fonts/Hiragino Kaku Gothic ProN W3.otf') format('truetype');
+}
+
+
+
+.font-ultra {
+  font-size: calc(1.3em + 0.5vw);
+}
+
+.font-0 {
+  font-size: calc(1em + 0.5vw);
+}
+
+.font-1 {
+  font-size: calc(0.8em + 0.5vw);
+}
+
+.font-2 {
+  font-size: calc(0.7em + 0.5vw);
+}
+
+.font-3 {
+  font-size: calc(0.6em + 0.5vw);
+}
+
+.font-4 {
+  font-size: calc(0.5em + 0.5vw);
+}
+
+
+.navbar-toggler {
+  width: 50px;
+}
